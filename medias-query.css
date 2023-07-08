@@ -1,4 +1,8 @@
 @media(max-width: 767px){  
+  #navbar .navbar-container ul li:nth-child(3) {
+    border-right: none;
+  }
+  
   #showcase {
     height: 100vh;
   }
@@ -13,16 +17,12 @@
 
   .footer-content {
     flex-wrap: wrap;
+    margin: 10px;
   }
   
   .footer-content .logo{
     margin-top: -46px;
     margin-bottom: 30px;
-  }
-
-  .footer-menu{
-    float: left;
-    text-align: left;
   }
 
   .socials {
