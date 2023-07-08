@@ -37,17 +37,13 @@ body {
 	width: auto;
 }
 
-.navbar-toggler {
-	color: white;
-	border: 1px solid white;
-}
-
 #navbar {
 	display: flex;
 	justify-content: center;
 	position: fixed;
 	top: 0;
 	width: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
 }
 
 #navbar .navbar-container {
