@@ -1,0 +1,55 @@
+@media(max-width: 767px){  
+  #showcase {
+    height: 100vh;
+  }
+  
+  .showcase-container {
+    max-width: 300px;
+  }
+  
+  .navbar-items{
+    flex-direction: column;
+  }
+
+  .footer-content {
+    flex-wrap: wrap;
+  }
+  
+  .footer-content .logo{
+    margin-top: -46px;
+    margin-bottom: 30px;
+  }
+
+  .footer-menu{
+    float: left;
+    text-align: left;
+  }
+
+  .socials {
+    margin-top: 20px;
+  }
+
+  .socials i{
+    margin: 0 36px;
+  }
+  
+  .footer-info-items {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .rights {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .brazil-flag {
+    width: 20px;
+    margin-left: 5px;
+  }
+
+  .footer-info .rights .country p {
+    margin-bottom: 5px;
+  }
+
+}  
