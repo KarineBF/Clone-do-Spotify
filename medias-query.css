@@ -1,16 +1,37 @@
-@media(max-width: 767px){  
+@media(max-width: 767px){ 
+  .logo{
+    margin-top: -37px;
+    margin-left: -71px;
+  } 
+
+  .navbar-toggler{
+    color: white;
+    margin-top: -37px;
+    margin-right: -71px;
+    border: 1px solid white;
+  }
+
   #navbar .navbar-container ul li:nth-child(3) {
     border-right: none;
   }
   
+  .navbar .navbar-expand-lg .secondary-bg{
+    position: fixed;
+  }
+
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link.show {
+	  margin-left: -71px;
+  }
+
   #showcase {
     height: 100vh;
   }
   
   .showcase-container {
     max-width: 300px;
+    margin-top: 60px;
   }
-  
   .navbar-items{
     flex-direction: column;
   }
